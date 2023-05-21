@@ -1,1 +1,165 @@
-# Portofolio
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+
+    <!-- My CSS-->
+    <link rel="stylesheet" href="style.css"/
+
+    <title>My Portofolio | Dany Firmansyah</title>
+  </head>
+  <body id="home">
+         <!--navbar-->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Dany Firmansyah</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#project">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Akhir Navbar -->
+         
+          <!-- Jumbotron -->
+          <section class="jumbotron text-center">
+          <img src="img/danyy.jpg" alt="danyy" width="150" class="rounded-circle img-thumbnail"/>
+            <h1 class="display-4">Dany Firmansyah</h1>
+            <p class="lead">STUDENT | PEMROGRAMAN WEB</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L60,176C120,192,240,224,360,234.7C480,245,600,235,720,218.7C840,203,960,181,1080,192C1200,203,1320,245,1380,266.7L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+          </section>
+          <!-- Akhir Jumbotron -->
+
+          <!-- About -->
+          <section id="about">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>About</h2>
+                    </div>
+                </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <h5  class="text-center">Halo Saya Dany Firmansyah Mahasiswa Politeknik Harapan Bersama Kota Tegal.</h5><br><br>
+        </div>
+        </div>
+
+          </section>
+          <!-- Akhir About -->
+
+          <!-- Project -->
+          <section id="project">
+            <div class="container">
+                <div class="row text-center mb-3">
+                   <div class="col">
+                    <h2>Project</h2>
+                   </div> 
+                </div>
+                <div class="row justify-content-evenly">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="img/Project/key 1.jpeg" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="img/Project/key 2.jpeg " class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="img/Project/key 3.jpeg" class="card-img-top" alt="Project 4">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="img/Project/key 4.jpeg" class="card-img-top" alt="Project 5">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="img/Project/key 5.jpeg" class="card-img-top" alt="Project 3">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L60,250.7C120,245,240,235,360,192C480,149,600,75,720,64C840,53,960,107,1080,128C1200,149,1320,139,1380,133.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+          </section>
+         <!-- Akhir Projects -->
+
+         <!-- Contact -->
+         <section id="contact">
+            <div class="contai">
+                <div class="row text-center mb-3">
+                  <div class="col">
+                    <h2>Contact Me</h2>
+                  </div>  
+                </div>
+                <div class="row justify-content-evenly">
+                   <div class="col-md-6">
+                      <form method="post" action="dbcon/direct_post.php">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Nama Lengkap</label>
+                          <input type="text" class="form-control" name="name" id="name" aria-described by="name">
+                          </div>
+                       
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" aria-described by="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" name="pesan" rows="3"></textarea>
+                          </div>
+                        <button type="submit" value="simpan" class="btn btn-primary">Kirim</button>
+                      </form>
+
+                   </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,160L60,176C120,192,240,224,360,245.3C480,267,600,277,720,261.3C840,245,960,203,1080,170.7C1200,139,1320,117,1380,106.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+         </section>
+
+         <!-- Akhir Contact -->
+         
+         <!-- Footer -->
+         <footer class="bg-primary text-white text-center pb-5">
+            <p>Created by <a href="https://www.instagram.com/dany_frmsyah/" class="text-white fw-bold">Dany Firmansyah</a></p>
+         </footer>
+         <!-- Akhir Footer --> 
