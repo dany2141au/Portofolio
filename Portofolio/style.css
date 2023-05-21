@@ -1,0 +1,17 @@
+.jumbotron {
+    background-image: url(img/background/key\ 5.jpeg);
+    background-attachment: fixed;
+    background-size:  cover;
+    background-position: 0 3px;
+    padding-top: 10rem;
+    background-color:#e2edff;
+}
+
+#projects {
+    padding-top: 10rem;
+    background-color:#a2d9ff;
+}
+
+section {
+    padding-top: 12rem;
+}
